@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(236, 208, 84);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px;
+    width: 60vw;
+    height: 36vh;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
+
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+
+
+}
+
+footer > a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer > a:hover {
+    text-decoration: underline;
+}
