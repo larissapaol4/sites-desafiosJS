@@ -33,6 +33,6 @@ function verificar() {
     }
 
     res.style.textAlign = 'center'
-    res.innerHTML = `Detectamos ${genero} com ${calc} anos!`
+    res.innerHTML = `<p>Detectamos ${genero} com ${calc} anos!</p>`
     res.appendChild(img)
     }
